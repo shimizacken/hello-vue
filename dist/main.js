@@ -79,7 +79,18 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar arr = [1, 2, 3];\nvar iAmJavascriptES6 = function iAmJavascriptES6() {\n  var _console;\n\n  return (_console = console).log.apply(_console, arr);\n};\nwindow.iAmJavascriptES6 = iAmJavascriptES6;\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _main = __webpack_require__(/*! ./main.css */ \"./src/main.css\");\n\nvar _main2 = _interopRequireDefault(_main);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar arr = [1, 2, 3];\nvar iAmJavascriptES6 = function iAmJavascriptES6() {\n  var _console;\n\n  return (_console = console).log.apply(_console, arr);\n};\nwindow.iAmJavascriptES6 = iAmJavascriptES6;\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/main.css":
+/*!**********************!*\
+  !*** ./src/main.css ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/main.css?");
 
 /***/ })
 
